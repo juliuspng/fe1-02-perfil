@@ -1,0 +1,84 @@
+body, html {
+    height:100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{ 
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(196, 61, 12, 0.556);
+    margin: auto;
+    
+
+
+
+
+
+a:link{
+ color: rgb(28, 233, 28);
+ background-color:transparent;
+ font-size:19px
+}
+
+/* pra lembrar esse é o que fica estatico */
+a:visited{
+ color:#dbd771;
+ background-color:transparent;
+ font-size:20px
+}
+
+a:active{
+ color:red;
+ background-color:transparent;
+ text-decoration: underline;
+}
+
+a:hover{
+ color:#f6f4f4;
+ background-color:transparent;
+ text-decoration: underline;
+ font-size: 20px;
+}
+
+img {
+    border: 15px solid #c24d2c;
+    border-radius: 15px;
+    cursor:grab
+}
+
+ul li,
+ol li{
+    color: #eeeeee;
+    font-family: sans-serif;
+    font-size: 19px;
+    }
+
+
+p {
+    color:#eeeeee;
+    font-family: sans-serif;
+    font-size: 19px;
+    }
+
+
+h1{
+    color:#268138;
+    font-family: serif;
+    font-size: 40px;
+    background-color: #C8D2D1;
+    height: 70px;
+    width: 400px;
+    }
+
+h2{
+    color:#68904D;
+    font-family: serif;
+    font-size: 30px;
+    }   
+}
